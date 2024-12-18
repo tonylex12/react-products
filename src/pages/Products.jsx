@@ -13,8 +13,8 @@ export default function Products() {
     <div>
       <Outlet></Outlet>
       <div className="container">
-        <h1>Products</h1>
-        <Button variant="warning">
+        <h1 className="my-4">Productos</h1>
+        <Button variant="warning" className="my-2">
           <Link className="nav-link" to="/products/create-product">
             Nuevo Producto
           </Link>

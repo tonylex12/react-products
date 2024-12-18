@@ -12,8 +12,8 @@ const Customers = () => {
     <div>
       <Outlet></Outlet>
       <div className="container">
-        <h1>Clientes</h1>
-        <Button variant="warning">
+        <h1 className="my-4">Clientes</h1>
+        <Button variant="warning" className="my-2">
           <Link className="nav-link" to="/customers/create-customer">
             Nuevo Cliente
           </Link>
